@@ -1,0 +1,10 @@
+﻿  PlayState.cpp
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(396,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(477,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(477,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  16 of 9728 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    15 functions were new in current compilation
+    239 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SFML EatPillsAvoidGhosts.vcxproj -> D:\repos\SFML EatPillsAvoidGhosts\x64\Release\SFML EatPillsAvoidGhosts.exe
