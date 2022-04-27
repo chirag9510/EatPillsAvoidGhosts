@@ -19,7 +19,7 @@ void GameOverState::OnEnter()
 void GameOverState::LoadLevel()
 {
 	pAssetManager = std::make_unique<AssetManager>();
-	pAssetManager->LoadFont("font", ".//assets//Emulogic.ttf");
+	pAssetManager->LoadFont("font", ".//assets//PressStart2P-vaV7.ttf");
 
 	EntityFactory factory(mRegistry);
 	sf::Vector2f vTextPosCenter(mWindow.getView().getSize().x / 2, mWindow.getView().getSize().y / 2);

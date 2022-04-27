@@ -1,10 +1,61 @@
-﻿  PlayState.cpp
-D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(396,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(477,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\PlayState.cpp(477,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  Maze.cpp
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(258,9): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(258,26): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(260,23): warning C4244: '-=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(260,51): warning C4244: '-=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(261,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(261,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(275,9): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(275,26): warning C4244: 'initializing': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(277,23): warning C4244: '-=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(277,51): warning C4244: '-=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(278,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(278,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(334,74): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\repos\SFML EatPillsAvoidGhosts\SFML EatPillsAvoidGhosts\Maze.cpp(334,50): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   Generating code
-  16 of 9728 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
-    15 functions were new in current compilation
-    239 functions had inline decision re-evaluated but remain unchanged
+  1064 of 9728 functions (10.9%) were compiled, the rest were copied from previous compilation.
+    253 functions were new in current compilation
+    355 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SFML EatPillsAvoidGhosts.vcxproj -> D:\repos\SFML EatPillsAvoidGhosts\x64\Release\SFML EatPillsAvoidGhosts.exe

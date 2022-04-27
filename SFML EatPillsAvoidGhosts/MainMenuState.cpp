@@ -25,7 +25,7 @@ void MainMenuState::OnEnter()
 void MainMenuState::LoadLevel()
 {
 	pAssetManager = std::make_unique<AssetManager>();
-	pAssetManager->LoadFont("font", ".//assets//Emulogic.ttf");
+	pAssetManager->LoadFont("font", ".//assets//PressStart2P-vaV7.ttf");
 	pAssetManager->LoadTexture("pacman", ".//assets//pacman.png");
 	pAssetManager->LoadTexture("ghosts", ".//assets//ghosts.png");
 
@@ -33,8 +33,8 @@ void MainMenuState::LoadLevel()
 	EntityFactory factory(mRegistry);
 
 	//entities for StageState::MainMenu
-	factory.TextLabelEntity(pAssetManager, "Eat Pills", sf::Vector2f(vViewSize.x / 2, vViewSize.y / 4), "font", 12, sf::Color(255, 255, 50), TextAlign::Center);
-	factory.TextLabelEntity(pAssetManager, "Avoid Ghosts", sf::Vector2f(vViewSize.x / 2, vViewSize.y / 4 + 20), "font", 12, sf::Color(50, 50, 255), TextAlign::Center);
+	factory.TextLabelEntity(pAssetManager, "EAT PILLS", sf::Vector2f(vViewSize.x / 2, vViewSize.y / 4), "font", 12, sf::Color(255, 255, 50), TextAlign::Center);
+	factory.TextLabelEntity(pAssetManager, "AVOID GHOSTS", sf::Vector2f(vViewSize.x / 2, vViewSize.y / 4 + 20), "font", 12, sf::Color(50, 50, 255), TextAlign::Center);
 	
 	auto e = factory.TextLabelEntity(pAssetManager, "Press [Enter] to Play", sf::Vector2f(vViewSize.x / 2, (vViewSize.y * 3) / 4 - 20), "font", 6, sf::Color::White, TextAlign::Center);
 	auto& chronoComp = mRegistry.emplace<ChronoComponent>(e);

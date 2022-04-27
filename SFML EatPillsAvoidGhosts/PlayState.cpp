@@ -45,7 +45,7 @@ void PlayState::LoadLevel()
 {
 	pAssetManager = std::make_unique<AssetManager>();
 	//load assets
-	pAssetManager->LoadFont("font", ".//assets//Emulogic.ttf");
+	pAssetManager->LoadFont("font", ".//assets//PressStart2P-vaV7.ttf");
 	pAssetManager->LoadTexture("tileset", ".//assets//tileset.png");
 	pAssetManager->LoadTexture("pacman", ".//assets//pacman.png");
 	pAssetManager->LoadTexture("ghosts", ".//assets//ghosts.png");
@@ -55,7 +55,6 @@ void PlayState::LoadLevel()
 	audioManager.LoadSoundBuffer("eat_fruit", ".//assets//eat_fruit.wav");
 	audioManager.LoadSoundBuffer("eat_ghost", ".//assets//eat_ghost.wav");
 	audioManager.LoadSoundBuffer("eat_pill", ".//assets//eat_pill.wav");
-	audioManager.LoadSoundBuffer("eat_powerpill", ".//assets//eat_powerpill.wav");
 	audioManager.LoadSoundBuffer("pacman_hurt", ".//assets//pacman_hurt.wav");
 
 	audioManager.LoadMusicPath("game_start", ".//assets//game_start.wav");

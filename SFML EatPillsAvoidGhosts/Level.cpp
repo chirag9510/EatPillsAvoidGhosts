@@ -88,7 +88,7 @@ std::string Classic::GetObjectiveString() const { return strObjective; }
 Classic_NoPowerPills::Classic_NoPowerPills(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat Pills Avoid Ghosts (No PowerPills)";
+	this->strObjective = "Eat Pills Avoid Ghosts";
 }
 void Classic_NoPowerPills::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
@@ -138,7 +138,7 @@ std::string Classic_NoPowerPills::GetObjectiveString() const { return strObjecti
 Classic_PowerPillOnly::Classic_PowerPillOnly(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat Pills Avoid Ghosts (PowerPills Only)";
+	this->strObjective = "Eat Pills Avoid Ghosts";
 }
 void Classic_PowerPillOnly::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
@@ -189,7 +189,7 @@ std::string Classic_PowerPillOnly::GetObjectiveString() const { return strObject
 Classic_BlinkyInky::Classic_BlinkyInky(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat Pills Avoid Ghosts (Blinky Inky)";
+	this->strObjective = "Eat Pills Avoid Ghosts";
 }
 void Classic_BlinkyInky::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
@@ -243,7 +243,7 @@ std::string Classic_BlinkyInky::GetObjectiveString() const { return strObjective
 Classic_Clydes::Classic_Clydes(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat Pills Avoid Ghosts (Clydes)";
+	this->strObjective = "Eat Pills Avoid Ghosts";
 
 }
 void Classic_Clydes::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
@@ -292,7 +292,7 @@ std::string Classic_Clydes::GetObjectiveString() const { return strObjective; }
 Classic_Pinkies::Classic_Pinkies(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat Pills Avoid Ghosts (Pinkies)";
+	this->strObjective = "Eat Pills Avoid Ghosts";
 }
 void Classic_Pinkies::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
@@ -480,7 +480,7 @@ std::string Treasure_ClydesChase::GetObjectiveString() const { return strObjecti
 EatGhosts::EatGhosts(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat pills and ghosts";
+	this->strObjective = "Eat Pills and Ghosts";
 }
 void EatGhosts::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
@@ -767,7 +767,7 @@ std::string EatGhosts_Fruits::GetObjectiveString() const { return strObjective; 
 EatGhosts_Clydes::EatGhosts_Clydes(Maze* maze)
 {
 	this->maze = maze;
-	this->strObjective = "Eat ghosts";
+	this->strObjective = "Eat Ghosts";
 }
 void EatGhosts_Clydes::Load(entt::registry& mRegistry, std::unique_ptr<AssetManager>& pAssetManager)
 {
