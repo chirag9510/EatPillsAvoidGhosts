@@ -2,7 +2,8 @@
 
 ![](https://github.com/chirag9510/Eat-Pills-Avoid-Ghosts/blob/master/img/v1.gif)
 
-Eat Pills Avoid Ghosts is a Pacman clone with expanded gameplay features. Stages alternate between the Classic level and a level with randomized enemies and objectives. Everything from Pacman's movement and cornering to each ghost's behaviour and path finding is true to the spirit of the original game with only a slight adjust to the movement speed.
+Eat Pills Avoid Ghosts is a Pacman clone with expanded gameplay features. Stages alternate between the Classic level and a level with randomized enemies and objectives. Just check the bottom text for the current level objective.
+From pacman's movement and cornering to each ghost's behaviour and path finding is true to the spirit of the original game with only a slight adjust to the movement speed and ghosts spawn points.
 Also I took out the outdated lives system for a more traditional Health Bar, where you get back a small chunk of your health by eating scared ghosts.
 
 Use Visual Studio 2022 to compile under the **Release** and **x64** solution platforms. Or just go to **x64/release** folder to try the compiled exe.
