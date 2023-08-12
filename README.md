@@ -17,4 +17,4 @@ Also thanks to the Pac-Man Dossier for great insight into this timeless classic 
 https://www.gamedeveloper.com/design/the-pac-man-dossier
 
 ![](https://github.com/chirag9510/Eat-Pills-Avoid-Ghosts/blob/master/img/v2.gif)
-![](https://github.com/chirag9510/Eat-Pills-Avoid-Ghosts/blob/master/img/v3.gif)
+![v3](https://github.com/chirag9510/EatPillsAvoidGhosts/assets/78268919/a1c256c1-77b7-4511-a567-5ecfae7ee415)
