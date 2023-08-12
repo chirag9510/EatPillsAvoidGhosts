@@ -1,6 +1,5 @@
 # Eat-Pills-Avoid-Ghosts
-
-![](https://github.com/chirag9510/Eat-Pills-Avoid-Ghosts/blob/master/img/v1.gif)
+![v1](https://github.com/chirag9510/EatPillsAvoidGhosts/assets/78268919/b3331e23-c31c-48bf-9852-576eb55eaa34)
 
 Eat Pills Avoid Ghosts is a Pacman clone with expanded gameplay features. Stages alternate between the Classic level and a level with randomized enemies and objectives. Just check the bottom text for the current level objective.\
 From pacman's movement and cornering to each ghost's behaviour and path finding is true to the spirit of the original game with only a slight adjust to the movement speed and ghosts spawn points.\
